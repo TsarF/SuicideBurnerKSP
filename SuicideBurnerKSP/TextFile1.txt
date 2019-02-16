@@ -1,0 +1,30 @@
+﻿/*
+        public static Vector3 GetImpactPoint()
+        {
+            if (FlightGlobals.ActiveVessel != null)
+            {
+                foreach (Trajectory.Patch patch in Trajectory.fetch.Patches)
+                {
+                    if (patch.ImpactPosition != null)
+                    {
+                        return (Vector3)patch.ImpactPosition;
+                    }
+                }
+            }
+            return new Vector3(0,0,0);
+        }
+        public static double GetImpactTime()
+        {
+            if(FlightGlobals.ActiveVessel != null)
+            {
+                foreach (Trajectories.Trajectory.Patch patch in Trajectories.Trajectory.fetch.Patches)
+                {
+                    if(patch.ImpactPosition != null)
+                    {
+                        return patch.EndTime;
+                    }
+                }
+            }
+            return (0.000000000000000000000001d);
+        }
+        */
